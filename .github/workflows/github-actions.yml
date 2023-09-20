@@ -1,4 +1,4 @@
-name: CI
+name: IDS706 GitHub Actions
 on:
   push:
     branches: [ "main" ]
@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: install packages
+      - uses: actions/checkout@v4
+      - name: install
         run: make install
       - name: lint
         run: make lint
@@ -19,5 +19,3 @@ jobs:
         run: make test
       - name: format
         run: make format
-      # - name: deploy
-      #   run: make deploy

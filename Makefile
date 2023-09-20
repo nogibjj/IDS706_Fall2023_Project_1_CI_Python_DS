@@ -13,4 +13,4 @@ format:
 lint:
 	ruff check --fix .
 		
-all: install lint test format deploy
+all: install lint test format

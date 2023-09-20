@@ -1,28 +1,18 @@
 [![CI](https://github.com/yuchenz427/IDS706-Python-Template/actions/workflows/cicd.yml/badge.svg)](https://github.com/yuchenz427/IDS706-Python-Template/actions/workflows/cicd.yml)
-# IDS706-Python-Template
+# IDS706_Fall2023_Project_1_CI_Python_DS
 
-Python template repo for Fall 2023 IDS_706-Data Engineering Systems at Duke Univ. 
+Fall 2023 IDS_706-Data Engineering Systems Individual Project 1: Continuous Integration using GitHub Actions of Python Data Science Project
 
 It contains:
 
-- ``.devcontainer`` includes a `Dockerfile` that specifies the configurations of container, and a `devcontainer.json` which is a configuration file used in the context of Visual Studio Code
+- ``./jupyter/fortune500_analyze.ipynb``: a Jupyter Notebook that makes use of ``Pandas`` to perform descriptive statistics related to the revenue data of fortune 500 companies over 50 years
 
-- ``workflows`` includes `GitHub Actions`, enables automated build, test and deployment for the project
+- ``./script/fortune500_analyze.py``: a Python script that performs the same descriptive statistics as ``fortune500_analyze.ipynb`` does
 
-- ``Makefile`` specifies build automation on Linux
+- ``./lib/lib.py``: a lib file shares the common code and imported libraries between ``fortune500_analyze.ipynb`` and ``fortune500_analyze.py``
 
-- ``requirements.txt`` lists the dependencies, libraries, and specific versions of Python packages required for the project
+- ``./tests/test_*.py``: unit test files to test script and lib file
 
-It also includes ``main.py`` and ``test_main.py`` as sample files to show the functionality of the CI pipeline.
+- ``Makefile``: defines `install` `format` `lint` `test` actions according to the project requirements
 
-## Github Actions Demo
-
-`Github Actions` is configured to kick off workflows with Github events. Below shows some samples:
-
-![img](./demo_img/demo_make_install.png)
-
-![img](./demo_img/demo_make_test.png)
-
-![img](./demo_img/demo_make_format.png)
-
-![img](./demo_img/demo_make_lint.png)
+- ``requirements.txt``: includes all the packages needed by the project with pinned version
