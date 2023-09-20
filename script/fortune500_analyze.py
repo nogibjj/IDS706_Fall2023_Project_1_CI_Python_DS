@@ -1,7 +1,7 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns 
-sns.set(style="darkgrid")
+import sys
+# setting path
+sys.path.append('../lib')
+from lib import *
 
 df = pd.read_csv('../data/fortune500.csv')
 
@@ -18,19 +18,11 @@ group_by_year = df.loc[:, ['year', 'revenue', 'profit']].groupby('year')
 avgs = group_by_year.mean()
 x = avgs.index
 y1 = avgs.profit
-def plot(x, y, ax, title, y_label):
-    ax.set_title(title)
-    ax.set_ylabel(y_label)
-    ax.plot(x, y)
-    ax.margins(x=0, y=0)
 fig, ax = plt.subplots()
 plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005', 'Profit (millions)')
 y2 = avgs.revenue
 fig, ax = plt.subplots()
 plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005', 'Revenue (millions)')
-def plot_with_std(x, y, stds, ax, title, y_label):
-    ax.fill_between(x, y - stds, y + stds, alpha=0.2)
-    plot(x, y, ax, title, y_label)
 fig, (ax1, ax2) = plt.subplots(ncols=2)
 title = 'Increase in mean and std Fortune 500 company %s from 1955 to 2005'
 stds1 = group_by_year.std().profit.values
