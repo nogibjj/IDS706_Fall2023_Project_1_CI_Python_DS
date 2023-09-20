@@ -6,7 +6,7 @@
 
 Fall 2023 IDS_706-Data Engineering Systems Individual Project 1: Continuous Integration using GitHub Actions of Python Data Science Project
 
-Demo Video: [![Demo Video](https://youtu.be/Df1vYz7Cj1M/default.jpg)](https://youtu.be/Df1vYz7Cj1M)
+### Demo Video On Youtube: https://youtu.be/Df1vYz7Cj1M
 
 It contains:
 
