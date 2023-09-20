@@ -1,4 +1,4 @@
-name: complete_workflow
+name: format
 on:
   push:
     branches: [ "main" ]
@@ -14,7 +14,3 @@ jobs:
         run: make install
       - name: format
         run: make format
-      - name: lint
-        run: make lint
-      - name: test
-        run: make test
