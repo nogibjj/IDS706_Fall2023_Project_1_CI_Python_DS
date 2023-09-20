@@ -6,6 +6,8 @@
 
 Fall 2023 IDS_706-Data Engineering Systems Individual Project 1: Continuous Integration using GitHub Actions of Python Data Science Project
 
+Demo Video: [![Demo Video](https://youtu.be/Df1vYz7Cj1M/default.jpg)](https://youtu.be/Df1vYz7Cj1M)
+
 It contains:
 
 - ``./jupyter/fortune500_analyze.ipynb``: a Jupyter Notebook that makes use of ``Pandas`` to perform descriptive statistics related to the revenue data of fortune 500 companies over 50 years
