@@ -1,4 +1,7 @@
-[![IDS706 GitHub Actions](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/github-actions.yml/badge.svg)](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/github-actions.yml)
+[![install](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/install.yml)
+[![format](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/format.yml)
+[![lint](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/lint.yml)
+[![test](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/test.yml)
 # IDS706_Fall2023_Project_1_CI_Python_DS
 
 Fall 2023 IDS_706-Data Engineering Systems Individual Project 1: Continuous Integration using GitHub Actions of Python Data Science Project
