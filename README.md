@@ -19,3 +19,31 @@ It contains:
 - ``Makefile``: defines `install` `format` `lint` `test` actions according to the project requirements
 
 - ``requirements.txt``: includes all the packages needed by the project with pinned version
+
+## How to test
+
+First, manually run Github Actions after cloning the repository to local:
+```
+make install
+make format
+make lint
+make test
+```
+If all of those passes, continue to the following steps.
+![](doc_img/test.jpg)
+
+### Jupyter Notebook
+
+Open ``jupyter/fortune500_analyze.ipynb``, the descriptive statistics are shown as an integration of Markdown document and Python code blocks.
+
+![](doc_img/jupyter_1.JPG)
+
+You can run each cell separately, or just click ``Run All`` and get all code blocks executed in order. This should generate corresponding plotting for each code block.
+
+![](doc_img/jupyter_2.JPG)
+
+### Python Script
+
+First run ``cd ./script/`` to get into the folder, then run ``python3 fortune500_analyze.py``. There should be a `fig.png` plot saved to the same folder, and the output should be the length of dataframe after data cleaning:
+
+![](image.png)
