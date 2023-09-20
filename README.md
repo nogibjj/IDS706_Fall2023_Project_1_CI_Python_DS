@@ -1,4 +1,4 @@
-[![CI](https://github.com/yuchenz427/IDS706-Python-Template/actions/workflows/cicd.yml/badge.svg)](https://github.com/yuchenz427/IDS706-Python-Template/actions/workflows/cicd.yml)
+[![IDS706 GitHub Actions](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/github-actions.yml/badge.svg)](https://github.com/nogibjj/IDS706_Fall2023_Project_1_CI_Python_DS/actions/workflows/github-actions.yml)
 # IDS706_Fall2023_Project_1_CI_Python_DS
 
 Fall 2023 IDS_706-Data Engineering Systems Individual Project 1: Continuous Integration using GitHub Actions of Python Data Science Project
